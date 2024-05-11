@@ -1,0 +1,97 @@
+/* MarkdownStyler.css */
+.markdownStyler {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .markdownStyler h1,
+  .markdownStyler h2,
+  .markdownStyler h3,
+  .markdownStyler h4,
+  .markdownStyler h5,
+  .markdownStyler h6 {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .markdownStyler h1 {
+    font-size: 2rem;
+  }
+  
+  .markdownStyler h2 {
+    font-size: 1.75rem;
+  }
+  
+  .markdownStyler h3 {
+    font-size: 1.5rem;
+  }
+  
+  .markdownStyler h4 {
+    font-size: 1.25rem;
+  }
+  
+  .markdownStyler h5 {
+    font-size: 1.1rem;
+  }
+  
+  .markdownStyler h6 {
+    font-size: 1rem;
+  }
+  
+  .markdownStyler p {
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .markdownStyler del {
+    text-decoration: line-through;
+  }
+  
+  .markdownStyler strong,
+  .markdownStyler b {
+    font-weight: bold;
+  }
+  
+  .markdownStyler em,
+  .markdownStyler i {
+    font-style: italic;
+  }
+  
+  .markdownStyler a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .markdownStyler a:hover {
+    text-decoration: none;
+  }
+  
+  .markdownStyler ul,
+  .markdownStyler ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .markdownStyler li {
+    margin: 0.5rem 0;
+  }
+  
+  .markdownStyler code {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+  }
+  
+  .markdownStyler pre {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+  }
+  
